@@ -15,4 +15,6 @@ function createHighDPICanvas(width, height){
   return canvas
 }
 
-module.exports = createHighDPICanvas
+if (typeof(module) !== "undefined"){
+  module.exports = createHighDPICanvas
+}
