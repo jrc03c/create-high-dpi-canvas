@@ -1,11 +1,11 @@
-function createHighDPICanvas(width, height){
+function createHighDPICanvas(width, height) {
   width = parseInt(width)
   height = parseInt(height)
 
   let dpi = window.devicePixelRatio || 1
   let canvas = document.createElement("canvas")
-  canvas.width = width * dpi
-  canvas.height = height * dpi
+  canvas.width = parseInt(width * dpi)
+  canvas.height = parseInt(height * dpi)
   canvas.style.width = `${width}px`
   canvas.style.height = `${height}px`
 
@@ -15,6 +15,6 @@ function createHighDPICanvas(width, height){
   return canvas
 }
 
-if (typeof(module) !== "undefined"){
+if (typeof module !== "undefined") {
   module.exports = createHighDPICanvas
 }
