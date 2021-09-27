@@ -1,5 +1,5 @@
 {
-  "name": "create-high-dpi-canvas",
+  "name": "@jrc03c/create-high-dpi-canvas",
   "version": "1.0.0",
   "description": "",
   "main": "create-high-dpi-canvas.js",
