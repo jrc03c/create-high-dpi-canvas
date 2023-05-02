@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "create-high-dpi-canvas.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jrc03c/create-high-dpi-canvas.git"
