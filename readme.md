@@ -1,3 +1,7 @@
+> ⚠️ **NOTE:** ⚠️ This project is being merged into a monorepo [here](https://github.com/jrc03c/monorepo/tree/main/packages/create-high-dpi-canvas). This repo will soon be archived.
+
+---
+
 # Introduction
 
 **create-high-dpi-canvas** provides a little helper function to make an HTML5 `<canvas>` element compatible with high-DPI screens.
